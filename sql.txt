@@ -1,0 +1,6 @@
+create database crowd;
+\c crowd;
+insert into employee (id, first_name, last_name, patronymic) values
+(1, 'Mike', 'Johnson', 'William'),
+(2, 'Michael', 'Allien', 'John'),
+(3, 'James', 'May', 'Richard');
